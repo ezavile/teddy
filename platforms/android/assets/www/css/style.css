@@ -1,0 +1,81 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face{	font-family: Teddy;	src: url(Alek/Alek_Regular.otf) format('truetype');}
+
+html, body{
+	font-size: 16px;
+	background-color: #C23A2C;
+}
+header, .Header{
+	text-align: center;
+	background-color: #C23A2C;
+	height: 44px;
+	line-height: 44px;
+}
+.Header h1{
+	font-size: 1.5rem !important;
+	color: #fff;
+}
+.placeholder-icon{
+	font-size: 1.5rem;
+	color: #B2B2B2;
+}
+.item-input{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.back-button{
+	color: #fff !important;
+}
+input{
+	font-size: 1rem !important;
+	color: #B2B2B2;
+}
+
+h2{
+	background-color: #9C2F2A;
+	color: #FFEFE1;
+	text-align: center;
+	margin: 0;
+	padding: .5rem 0;
+	font-size: 1rem;
+}
+
+button.mainIcon{
+	border: 0px;
+	width: 33.333%;
+	float: left;
+	color: #fff;
+	height: 122px;
+	font-size: 1.2rem;
+}
+
+
+
+.bg1{
+	background-color: #F3991F;
+}
+.bg2{
+	background-color: #F5C30E;
+}
+
+.range{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: #C23A2C;
+}
+
+.range + label{
+	margin: 1rem;
+	background-color: #C23A2C;
+	color: #fff;
+	font-size: 1.1rem;
+}
+.range input{
+	margin: 0;
+}
+.clear{clear: both;}
+
+
+.pane{background: none;}

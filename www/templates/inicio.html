@@ -1,0 +1,30 @@
+<ion-view title="Teddy">
+    <ion-pane>
+
+    <ion-content class="has-header">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="Search: music, artist, genre">
+        </label>
+
+        <h2>FEEL THE RHYTM</h2>
+
+        <a href="#/reggae"><button  class="mainIcon bg1" ng-click="vibOff()">REGGAE</button></a>
+        <a href="#/rock"><button  class="mainIcon bg2" ng-click="vibOff()">ROCK</button></a>
+        <a href="#/pop"><button class="mainIcon bg1" ng-click="vibOff()">POP</button></a>
+        <a href="#/dubstep"><button class="mainIcon bg2" ng-click="vibOff()">DUBSTEP</button></a>
+        <a href="#/rb"><button class="mainIcon bg1" ng-click="vibOff()">R&B</button></a>
+        <a href="#/reggeaton"><button class="mainIcon bg2" ng-click="vibOff()">REGGEATON</button></a>
+        <div class="clear"></div>
+
+        <h2>DO IT YOUR WAY</h2>
+
+        <div class="range">
+          <input type="range" name="espacio" max="100" min="0" ng-model="data.espacio" ng-change="manual();">
+        </div>
+        <label>Intencity</label>
+
+        
+    </ion-content>
+    </ion-pane>
+</ion-view>
